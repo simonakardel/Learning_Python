@@ -1,0 +1,25 @@
+import os
+
+#1 create a folder 'os_exercises'
+#os.mkdir('os_exercises')
+
+
+#2 in that folder create a file exercise.py
+os.chdir('os_exercises') 
+open('exercise.py', 'w') 
+
+
+#3 Get input from the console and write it to the file
+x = input('Please write something to the file: ')
+with open('exercise.py', 'w') as f:
+    f.write(x)
+
+#4 Repeat step 2 and 3
+x = input('Please write something More to anoter file: ') 
+with open('exercise2.py', 'w') as f:
+    f.write(x)
+
+#5 read the content of the files and print it to the console
+with open('exercise.py', 'r') as f1:
+    with open('exercise2.py', 'r' ) as f2:
+        print(f1.read() + f2.read())
