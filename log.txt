@@ -1,0 +1,10 @@
+2023-03-09 14:11:40.743006 add called with args ('hey',)2023-03-09 14:12:01.930330 add called with args (1, 2)2023-03-09 14:12:45.706350 add called with args (3, 5, 6, 7)2023-03-09 14:13:11 add called with args (3, 5, 6, 9)2023-03-09 14:13:41 add called with args (3, 5, 6, 9) 
+2023-03-09 14:14:04 add called with args (3, 5, 4, 9) 
+2023-03-09 14:15:49 add called with args (3, 5, 4, 9) 
+2023-03-09 14:20:38 add called with args (3, 5, 4, 9) 
+2023-03-09 14:20:38 printer called with args ('hey',) 
+2023-03-09 14:23:14 add called with args (3, 5, 4, 9) with result 21
+2023-03-09 14:23:14 printer called with args ('hey',) with result hey
+2023-03-09 14:23:40 add called with args (3, 5, 4, 9) with result 21
+2023-03-09 14:23:40 printer called with args ('hey',) with result hey
+2023-03-09 14:23:57 add called with args (3, 5, 4, 9) with result 21
